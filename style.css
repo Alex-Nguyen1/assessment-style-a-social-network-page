@@ -1,0 +1,102 @@
+* {
+    background-color: black;
+    color: white;
+}
+header {
+    width: 850px;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    color: violet;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    background-color: violet;
+}
+li {
+    padding: 10px;
+}
+
+.column {
+    /* display: flex; */
+    float: left;
+}
+    
+div {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: violet;
+    
+}
+.div1 {
+    position: relative;
+    height: 328px;
+    width: 328px;
+    float: left;
+    background-color: violet;
+}
+
+.div2 {
+    position: relative;
+    height: 328px;
+    width: 328px;
+    left: -238px;
+    background-color: violet;
+}
+
+.div3 {
+    position: relative;
+    height: 512px;
+    width: 300px;
+    left: 100px;
+    top: -328px;
+    background-color: violet;
+}
+
+.div4 {
+    position: relative;
+    height: 512px;
+    width: 300px;
+    top: -840px;
+    left: 428px;
+    background-color: violet;
+}
+
+.div5 {
+    position: relative;
+    height: 328px;
+    width: 328px;
+    top: -1000px;
+    left: -588px;
+}
+
+.div6 {
+    position: relative;
+    height: 328px;
+    width: 328px;
+    top: -1328px;
+    left: -238px;
+}
+
+.div7 {
+    position: relative;
+    height: 512px;
+    width: 300px;
+    top: -1475px;
+    left: 100px;
+}
+
+.div8 {
+    position: relative;
+    height: 512px;
+    width: 300px;
+    top: -1987px;
+    left: 428px;
+}
